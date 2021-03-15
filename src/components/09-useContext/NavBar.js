@@ -5,7 +5,7 @@ export const NavBar = () => {
   return (
     <nav className='navbar navbar-expand-sm navbar-dark bg-dark'>
       <Link to='/' className='navbar-brand'>useContext</Link>
-      <div className='collapse navbar-collapse id='navbarNavAltMarkup>
+      <div className='collapse navbar-collapse' id='navbarNavAltMarkup'>
         <div className='navbar-nav'>
             <NavLink activeClassName='active' to='./' className='nav-item nav-link'>Home</NavLink>      
             <NavLink activeClassName='active' to='./about' className='nav-item nav-link'>About</NavLink>
